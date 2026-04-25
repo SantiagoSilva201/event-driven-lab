@@ -73,17 +73,17 @@ docker-compose logs consumer
 
 ## Endpoints
 
-Método	                URL	                 Descripción
-POST	/api/messages/send?message=texto	Enviar mensaje
+Método:POST            
+URL:/api/messages/send?message=texto
+Descripción: Enviar mensaje
 
 ## Comandos útiles
 
-Comando	                                Descripción
-docker-compose up -d	                Iniciar servicios
-docker-compose down	                    Detener servicios
-docker-compose ps	                    Ver estado
-docker-compose logs -f	                Ver logs
-docker-compose logs consumer	        Logs del consumidor
+1. docker-compose up -d: Iniciar servicios
+2. docker-compose down: Detener servicios
+3. docker-compose ps: Ver estado
+4. docker-compose logs -f: Ver logs
+5. docker-compose logs consumer: Logs del consumidor
 
 ## Estado del proyecto
 
